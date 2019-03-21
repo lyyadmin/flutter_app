@@ -1,0 +1,124 @@
+name: ahuyikao
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  dio: ^2.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/icon_splash_yinyongbao.png
+    - images/ic_home_focused.png
+    - images/ic_home_normal.png
+    - images/ic_course_focuse.png
+    - images/ic_course_normal.png
+    - images/ic_customer_service_focuse.png
+    - images/ic_customer_service_normal.png
+    - images/ic_me_focuse.png
+    - images/ic_me_normal.png
+    - images/center_icon.png
+    - images/exec_ic_ans_big_err.png
+    - images/activite_choosed_null.png
+    - images/guide1.png
+    - images/guide2.png
+    - images/guide3.png
+    - images/guide4.png
+    - images/guide_btn_focused.png
+    - images/guide_btn_normal.png
+    - images/guide_dot_focused.png
+    - images/guide_dot_normal.png
+    - images/banner00.png
+    - images/banner01.png
+    - images/banner02.png
+    - images/banner03.png
+    - images/banner04.png
+    - images/banner05.png
+    - images/ic_live_course.png #直播大厅
+    - images/ic_school_course.png #网校课程
+    - images/icon_activity_center.png #活动中心
+    - images/ic_free_classes.png #免费试听
+    - images/ic_ahu_tiku.png #VIP题库
+    - images/ic_all_question.png #历年真题
+    - images/ahuxueshu_paper_examing.png #押题密卷
+    - images/ic_graph_ques.png #拍照搜题
+    - images/icon_zero_to_class.png #0元报班
+    - images/icon_trumpet.png #喇叭
+    - images/icon_alarm_clock.png #闹钟
+    - images/icon_live.png #电视机
+    - images/icon_live_today.png #今日直播
+    - images/ic_cost_performance.png #性价比
+    - images/ic_recommended.png #推荐
+    - images/doctor_exam_courceadd_image.png #头像
+    - images/doctor_exam_lessonnum_image.png #时钟
+    - images/doctor_exam_down_video_normal.png #下载
+    - images/doctor_exam_add_video_normal.png #我的课程
+    - images/kecheng.png #课程top picture
+    - images/me_title_bg.png #我的头部背景图
+    - images/msg_notice_btn_normal.png #通知图标
+    - images/settings_btn_normal.png #设置图标
+    - images/ic_physician_practice.png #头像
+    - images/ic_my_exam_type.png #我的考试类别
+    - images/coupons_area_image.png #优惠券
+    - images/share_friend_label.png #向好友推荐阿虎医考
+    - images/review_good_me_image.png #给阿虎个好评
+    - images/about_us_label.png #关于我们
+    - images/ic_right_arrows.png #右箭头
+    - images/ic_live_share_weixin.png #微信图标
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
